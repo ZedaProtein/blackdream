@@ -1,0 +1,122 @@
+
+body { 
+
+
+    background-image: url(./fondimg.jpg);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text1 { 
+    color: black;
+    font-weight: 500;
+    font-size: 60px;
+    padding: 100
+
+}
+
+.text2 { 
+    color: red;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+
+.text3 { 
+    color: black;
+    font-weight: 500;
+    font-size: 30;
+    margin-bottom: 50;
+
+}
+
+main { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo { 
+    width:  250px;
+    height: 250px;
+    border-radius: 150px;
+    border: 1px rgba(0, 0, 0, 0.5) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+   
+}
+
+
+.test { 
+    width: 100%;
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+
+}
+
+
+
+.t { 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    font-size: 30;
+    list-style: none;
+    cursor: pointer;
+
+}
+
+.hub { 
+    width:  300px;
+    height: 300px;
+    border-radius: 150px;
+    border: 1px rgba(0, 0, 0, 0.5) solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    margin-top: 250;
+    margin-left: 250;
+    
+
+}
+
+.tutopadd { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texthub { 
+    font-weight: 50;
+    font-size: 35;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250;
+    margin-left: 450;
+    
+
+    
+}
+
+
+
+
+
