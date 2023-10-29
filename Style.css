@@ -1,19 +1,15 @@
-
-body { 
-
-
-    background-image: url(./Image/fondimg.jpg);
-    background-size: cover;
-    backdrop-filter: blur(10px);
-    
- }
-
 * {
     margin: 0;
     padding: 0;
 }
 
-.text1 { 
+body {
+    background-image: url(./Image/fondimg.jpg);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+.text1 {
     color: black;
     font-weight: 500;
     font-size: 60px;
@@ -21,14 +17,14 @@ body {
 
 }
 
-.text2 { 
+.text2 {
     color: red;
     font-weight: 500;
     font-size: 40px;
 
 }
 
-.text3 { 
+.text3 {
     color: black;
     font-weight: 500;
     font-size: 30;
@@ -36,13 +32,13 @@ body {
 
 }
 
-main { 
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.logo { 
+.logo {
     width:  250px;
     height: 250px;
     border-radius: 150px;
@@ -52,23 +48,18 @@ main {
     align-items: center;
     box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.7);
     cursor: pointer;
-   
 }
 
-
-.test { 
+.test {
     width: 100%;
     color: red;
     background-color: black;
     display: flex;
     justify-content: stretch;
     align-items: stretch;
-
 }
 
-
-
-.t { 
+.t {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -76,10 +67,9 @@ main {
     font-size: 30;
     list-style: none;
     cursor: pointer;
-
 }
 
-.hub { 
+.hub {
     width:  300px;
     height: 300px;
     border-radius: 150px;
@@ -91,17 +81,15 @@ main {
     cursor: pointer;
     margin-top: 250;
     margin-left: 250;
-    
-
 }
 
-.tutopadd { 
+.tutopadd {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.texthub { 
+.texthub {
     font-weight: 50;
     font-size: 35;
     color: white;
@@ -111,12 +99,4 @@ main {
     align-items: center;
     margin-top: 250;
     margin-left: 450;
-    
-
-    
 }
-
-
-
-
-
